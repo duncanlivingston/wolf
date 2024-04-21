@@ -1,51 +1,66 @@
-p, ul {
-    color:rgb(168, 0, 0);
+p {
+    color: rgb(168, 0, 0);
+    margin-left: 5px;
 }
+
+ul {
+    color: rgb(168, 0, 0);
+}
+
 h1 {
     color: rgb(0, 0, 114);
     text-align: center;
+    text-shadow: 0 0 5px #0004ff;
 }
-h2{
+
+h2 {
     color: rgb(0, 66, 141);
     text-align: center;
-} 
-h3{
+    text-shadow: 0 0 3px #0004ff;
+}
+
+h3 {
     color: rgb(0, 66, 141);
     margin-left: 15px;
 }
-div.light-blue-border{
+
+div.light-blue-border {
     border: 3px solid rgb(0, 66, 141);
 }
+
 div.dark-blue-border {
     border: 3px solid rgb(0, 0, 114);
 }
-img{
+
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-iframe{
+
+iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 /* unvisited link */
 a:link {
     color: rgb(168, 0, 0);
-  }
-  
+}
+
 /* visited link */
 a:visited {
     color: rgb(0, 0, 114);
-  }
-  
+}
+
 /* mouse over link */
 a:hover {
     color: rgb(100, 0, 0);
-  }
-  
+}
+
 /* selected link */
 a:active {
     color: rgb(0, 66, 141);
-  }
+}
